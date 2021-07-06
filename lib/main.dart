@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'home_page.dart';
+import 'screens/user_profile/login_screen.dart';
+import 'screens/home_screen.dart';
 
 void main() {
   runApp(myApp());
@@ -16,6 +17,22 @@ class myApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: HomePage());
+    // bringVagetable(thaila: true, rupees: 50);
+    return MaterialApp(
+      // home: HomePage(),
+      themeMode: ThemeMode.light,
+      theme: ThemeData(primarySwatch: Colors.deepPurple),
+      darkTheme: ThemeData(
+        primarySwatch: Colors.red,
+        // brightness: Brightness.dark
+      ),
+      initialRoute: '/',
+      routes: {
+        "/": (context) => HomePage(),
+        "/login": (context) => LoginScreen()
+      },
+    );
   }
+
+  // bringVagetable({@required bool thaila , int rupees = 100}) {}
 }
