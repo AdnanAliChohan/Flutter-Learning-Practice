@@ -1,0 +1,28 @@
+{
+    "Products": [
+        {
+            "id": 1,
+            "name": "Macbook 2010",
+            "desc": "Came to market in 2010, with 256 ssd",
+            "price": 1000,
+            "color": "#33505a",
+            "image": "https://reactnative.dev/img/tiny_logo.png"
+        },
+        {
+            "id": 2,
+            "name": "Macbook 2011",
+            "desc": "Came to market in 2011, with 128 ssd",
+            "price": 1100,
+            "color": "#33505a",
+            "image": "https://reactnative.dev/img/tiny_logo.png"
+        },
+        {
+            "id": 3,
+            "name": "Macbook 2012",
+            "desc": "Came to market in 2012, with 256 ssd",
+            "price": 1350,
+            "color": "#33505a",
+            "image": "https://reactnative.dev/img/tiny_logo.png"
+        }
+    ]
+}
